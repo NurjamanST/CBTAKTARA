@@ -51,7 +51,7 @@ class Dashboard extends CI_Controller {
 		$user = $this->user;
 		$data = [
 			'user' 		=> $user,
-			'judul'		=> 'Dashboard111111',
+			'judul'		=> 'Dashboard',
 			'subjudul'	=> 'Data Aplikasi',
 		];
 
