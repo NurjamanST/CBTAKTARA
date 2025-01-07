@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'u7753801_cbt',
+	'hostname' => 'meniti.id',
+	'username' => 'u7753801_user_cbtaktara',
+	'password' => 'user_cbtaktara',
+	'database' => 'u7753801_cbtaktara',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
