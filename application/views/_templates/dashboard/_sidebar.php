@@ -27,7 +27,7 @@
 			<li class="<?= $page === 'dashboard' ? "active" : "" ?>"><a href="<?=base_url('dashboard')?>"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
 			<?php if($this->ion_auth->is_admin()) : ?>
 			<li class="treeview <?= in_array($page, $master)  ? "active menu-open" : ""  ?>">
-				<a href="#"><i class="fa fa-folder"></i> <span>Data Master111</span>
+				<a href="#"><i class="fa fa-folder"></i> <span>Data Master</span>
 					<span class="pull-right-container">
 						<i class="fa fa-angle-left pull-right"></i>
 					</span>
