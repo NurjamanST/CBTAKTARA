@@ -45,12 +45,7 @@
                     <div class="form-group">
                         <label for="kelas">Kelas</label>
                         <select id="kelas" name="kelas" class="form-control select2">
-                            <option value="" disabled selected>-- Pilih --</option>
-                            <?php foreach ($kelas as $k) : ?>
-                            <option <?=$mahasiswa->id_kelas === $k->id_kelas ? "selected" : "" ?> value="<?=$k->id_kelas?>">
-                                <?=$k->nama_kelas?>
-                            </option>
-                            <?php endforeach ?>
+                            <option value="">-- Pilih --</option>
                         </select>
                         <small class="help-block"></small>
                     </div>
