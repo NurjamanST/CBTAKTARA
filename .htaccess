@@ -3,7 +3,3 @@ RewriteOptions inherit
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
-
-<FilesMatch "\.php$">
-    SetHandler "proxy:unix:/run/php/php7.4-fpm.sock|fcgi://meniti.id"
-</FilesMatch>
