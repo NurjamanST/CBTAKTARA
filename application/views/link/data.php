@@ -1,6 +1,6 @@
 <div class="box">
     <div class="box-header with-border">
-        <h3 class="box-title"><?=$subjudul?> 1111 </h3>
+        <h3 class="box-title"><?=$subjudul?></h3>
         <div class="box-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
             </button>
@@ -51,8 +51,8 @@
             ?>
             <tr>
                 <td><?php echo $no++ ?></td>
-                <td><a href="https://www.youtube.com" target="_blank"><?php echo $row->zoom ?></a></td>
-                <td><a href="https://www.youtube.com" target="_blank"><?php echo $row->penugasan ?></a></td>
+                <td><a href="<?php echo $row->zoom ?>" target="_blank"><?php echo $row->zoom ?></a></td>
+                <td><a href="<?php echo $row->penugasan ?>" target="_blank"><?php echo $row->penugasan ?></a></td>
                 <td>
                     <a href="<?php echo site_url('link/edit/'. $row->id) ?>" class="btn btn-warning"><i class="fa fa-pencil"></i> Edit</a>
                 </td>

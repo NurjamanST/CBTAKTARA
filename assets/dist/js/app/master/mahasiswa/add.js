@@ -15,23 +15,6 @@ function load_jurusan() {
     });
 }
 
-// function load_kelas() {
-//     $('#kelas').find('option').not(':first').remove();
-
-//     $.getJSON(base_url+'kelas/data/', function (data) {
-//         var option = [];
-//         for (let i = 0; i < data.length; i++) {
-//             option.push({
-//                 id: data[i].id_kelas,
-//                 text: data[i].nama_kelas
-//             });
-//         }
-//         $('#kelas').select2({
-//             data: option
-//         });
-//     });
-// }
-
 function load_kelas(id) {
     $('#kelas').find('option').not(':first').remove();
 
