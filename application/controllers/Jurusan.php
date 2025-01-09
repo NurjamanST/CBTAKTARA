@@ -187,6 +187,7 @@ class Jurusan extends CI_Controller
 			}
 			var_dump($file);
 			$spreadsheet = $reader->load($file);
+			var_dump($spreadSheet);
 			$sheetData = $spreadsheet->getActiveSheet()->toArray();
 			$jurusan = [];
 			for ($i = 1; $i < count($sheetData); $i++) {
