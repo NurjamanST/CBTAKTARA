@@ -40,11 +40,10 @@ $(document).ready(function () {
     load_jurusan();
 
     // Load Kelas By Jurusan
-    load_kelas();
-    // $('#jurusan').on('change', function () {
-    //     load_kelas($(this).val());
-    // });
-
+    $('#jurusan').on('change', function () {
+        load_kelas($(this).val());
+    });
+    
     $('form#mahasiswa input, form#mahasiswa select').on('change', function () {
         $(this).closest('.form-group').removeClass('has-error has-success');
         $(this).nextAll('.help-block').eq(0).text('');
