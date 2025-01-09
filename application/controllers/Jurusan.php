@@ -185,7 +185,7 @@ class Jurusan extends CI_Controller
 					echo "unknown file ext";
 					die;
 			}
-
+			var_dump($file);
 			$spreadsheet = $reader->load($file);
 			$sheetData = $spreadsheet->getActiveSheet()->toArray();
 			$jurusan = [];
