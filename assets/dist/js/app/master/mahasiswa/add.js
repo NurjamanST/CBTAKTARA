@@ -37,7 +37,7 @@ $(document).ready(function () {
     ajaxcsrf();
 
     // Load Jurusan
-    // load_jurusan();
+    load_jurusan();
 
     // Load Kelas By Jurusan
     $('#jurusan').on('change', function () {
