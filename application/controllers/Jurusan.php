@@ -148,7 +148,7 @@ class Jurusan extends CI_Controller
 			'subjudul' => 'Import Jurusan'
 		];
 		if ($import_data != null) $data['import'] = $import_data;
-
+		var_dump($import_data);
 		$this->load->view('_templates/dashboard/_header', $data);
 		$this->load->view('master/jurusan/import');
 		$this->load->view('_templates/dashboard/_footer');
