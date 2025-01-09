@@ -26,7 +26,6 @@ function load_kelas() {
                 text: data[i].nama_kelas
             });
         }
-        console.log(option);
         $('#kelas').select2({
             data: option
         });
@@ -41,9 +40,10 @@ $(document).ready(function () {
     load_jurusan();
 
     // Load Kelas By Jurusan
-    $('#jurusan').on('change', function () {
-        load_kelas($(this).val());
-    });
+    load_kelas();
+    // $('#jurusan').on('change', function () {
+    //     load_kelas($(this).val());
+    // });
 
     $('form#mahasiswa input, form#mahasiswa select').on('change', function () {
         $(this).closest('.form-group').removeClass('has-error has-success');
