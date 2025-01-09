@@ -25,7 +25,7 @@ setlocale(LC_ALL, 'IND');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = "https://meniti.id/CBTAKTARA";
+$config['base_url'] = "https://meniti.id/cbtaktara";
 // $config['base_url'] = 'https://localhost/CBTAKTARA-2025/';
 // $config['base_url'] = '';
 // $config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
