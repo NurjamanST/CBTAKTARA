@@ -15,20 +15,41 @@ function load_jurusan() {
     });
 }
 
-function load_kelas() {
+// function load_kelas() {
+//     $('#kelas').find('option').not(':first').remove();
+
+//     $.getJSON(base_url+'kelas/data/', function (data) {
+//         var option = [];
+//         for (let i = 0; i < data.length; i++) {
+//             option.push({
+//                 id: data[i].id_kelas,
+//                 text: data[i].nama_kelas
+//             });
+//         }
+//         $('#kelas').select2({
+//             data: option
+//         });
+//     });
+// }
+
+function load_kelas(id) {
     $('#kelas').find('option').not(':first').remove();
 
-    $.getJSON(base_url+'kelas/data/', function (data) {
-        var option = [];
-        for (let i = 0; i < data.length; i++) {
-            option.push({
-                id: data[i].id_kelas,
-                text: data[i].nama_kelas
-            });
+    $.ajax({
+        url: base_url+'kelas/kelas_by_jurusan/' + id,
+        type: 'GET',
+        success: function (data) {
+            var option = [];
+            for (let i = 0; i < data.length; i++) {
+                option.push({
+                    id: data[i].id_kelas,
+                    text: data[i].nama_kelas
+                });
+            }
+            $('#kelas').select2({
+                data: option
+            })
         }
-        $('#kelas').select2({
-            data: option
-        });
     });
 }
 
