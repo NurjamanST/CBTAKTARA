@@ -26,6 +26,7 @@ function load_kelas() {
                 text: data[i].nama_kelas
             });
         }
+        console.log(option);
         $('#kelas').select2({
             data: option
         });
