@@ -26,7 +26,7 @@ setlocale(LC_ALL, 'IND');
 |
 */
 // $config['base_url'] = "https://meniti.id/cbtaktara";
-$config['base_url'] = 'https://localhost/CBTAKTARA/';
+$config['base_url'] = 'https://meniti.id/CBTAKTARA/';
 // $config['base_url'] = '';
 // $config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
 // $config['base_url'] = str_replace('index.php', '', $config['base_url']);
