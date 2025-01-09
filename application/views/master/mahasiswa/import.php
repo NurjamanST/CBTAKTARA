@@ -9,7 +9,7 @@
     <div class="box-body">
         <ul class="alert alert-info" style="padding-left: 40px">
             <li>Silahkan import data dari excel, menggunakan format yang sudah disediakan</li>
-            <li>Data tidak boleh ada yang kosong, harus terisi semua. <span class="btn btn-xs btn-yellow">(Lebih dari 3 Data)</span></li>
+            <li>Data tidak boleh ada yang kosong, harus terisi semua. <span class="btn btn-xs btn-warning">(Lebih dari 3 Data)</span></li>
             <li>Untuk data Kelas, hanya bisa diisi menggunakan ID Kelas. <a data-toggle="modal" href="#kelasId" style="text-decoration:none" class="btn btn-xs btn-primary">Lihat ID</a>.</li>
         </ul>
         <div class="text-center">
