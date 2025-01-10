@@ -2,7 +2,7 @@
     <h4>Peraturan Ujian!</h4>
     <p>Assalamualaikum wr wb
         Soal sebanyak <?=$ujian->jumlah_soal?> soal pilihan ganda, waktu yang diberikan <?=$ujian->waktu?> menit.
-        silahkan masukan Token <b><?=$ujian->token?></b> yang di dapatkan dari guru/asessor/help desk. untuk mengikuti atau memulai sesi ujian.
+        silahkan masukan Token <b class="btn-sm btn-warning"><?=$ujian->token?></b> yang di dapatkan dari guru/asessor/help desk. untuk mengikuti atau memulai sesi ujian.
     </p><br>
     <ul>
         <li>Klik Ragu untuk menandai jawaban anda yang masih diragukan</li>
