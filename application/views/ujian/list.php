@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-sm-3">
         <div class="alert bg-green">
-            <h4>Sekolah<i class="pull-right fa fa-building-o"></i></h4>
+            <h4>Kelas<i class="pull-right fa fa-building-o"></i></h4>
             <span class="d-block"> <?=$mhs->nama_kelas?></span>                
         </div>
     </div>

@@ -100,12 +100,12 @@
                     <tr>
                         <th>Help Desk yang bisa dihubungi</th>
                         <?php 
-                        if($mahasiswa->jurusan_id === '8' & $mahasiswa->kelas_id === '16')
-                            {
-                                echo "<td>(+62 853-1914-7064) <br>Willy Muhammad Fauzi</td>";
-                            }else{
-                                echo "<td>(+62 895-3567-41241) <br>Mohammad Restu Johansyah</td>";
-                            }
+                        echo "<td>(+62 821-2826-2881) <br>Nurjaman</td>";
+                        // if($mahasiswa->jurusan_id === '8' & $mahasiswa->kelas_id === '16')
+                        //     {
+                            // }else{
+                            //     echo "<td>(+62 895-3567-41241) <br>Mohammad Restu Johansyah</td>";
+                            // }
                         ?>
                     </tr>
                     
