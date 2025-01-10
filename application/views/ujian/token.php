@@ -1,15 +1,17 @@
 <div class="callout callout-info">
     <h4>Peraturan Ujian!</h4>
     <p>Assalamualaikum wr wb
-Soal sebanyak 25 soal pilihan ganda, waktu yang diberikan 60 menit.
-silahkan masukan Token yang di dapatkan dari guru/asessor/help desk untuk mengikuti atau memulai sesi ujian.
-Klik Ragu untuk menandai jawaban anda yang masih diragukan
-Klik lanjut untuk menjawab soal selanjutnya
-klik Prev bila ada jawaban yang ingin anda periksa kembali
-Klik selesai untuk mengakhiri sesi ujian anda.
-Semoga Berhasil, Jangan Lupa Berdoa.
-Regards, 
-STT YBSI Tasikmalaya</p>
+        Soal sebanyak <?=$ujian->jumlah_soal?> soal pilihan ganda, waktu yang diberikan <?=$ujian->waktu?> menit.
+        silahkan masukan Token <b><?=$ujian->token?></b> yang di dapatkan dari guru/asessor/help desk. untuk mengikuti atau memulai sesi ujian.
+    </p><br>
+    <ul>
+        <li>Klik Ragu untuk menandai jawaban anda yang masih diragukan</li>
+        <li>Klik lanjut untuk menjawab soal selanjutnya</li>
+        <li>klik Prev bila ada jawaban yang ingin anda periksa kembali</li>
+        <li>Klik selesai untuk mengakhiri sesi ujian anda</li>
+    </ul><br>
+    <p>Semoga Berhasil, Jangan Lupa Berdoa.</p> <br>
+    <h6>Regards,</h6>
 </div>
 <div class="box box-primary">
     <div class="box-header with-border">
