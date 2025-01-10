@@ -222,13 +222,13 @@ class Soal extends CI_Controller {
 
             if($method==='add'){
                 //push array
-                $data['created_on'] = time();
-                $data['updated_on'] = time();
+                $data['created_on'] = getTimestamp();
+                $data['updated_on'] = getTimestamp();
                 //insert data
                 $this->master->create('tb_soal', $data);
             }else if($method==='edit'){
                 //push array
-                $data['updated_on'] = time();
+                $data['updated_on'] = getTimestamp();
                 //update data
                 $id_soal = $this->input->post('id_soal', true);
                 $this->master->update('tb_soal', $data, 'id_soal', $id_soal);
