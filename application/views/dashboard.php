@@ -94,7 +94,7 @@
                         <td><?=$mahasiswa->nama_jurusan?></td>
                     </tr>
                     <tr>
-                        <th>Sekolah</th>
+                        <th>Kelas</th>
                         <td><?=$mahasiswa->nama_kelas?></td>
                     </tr>
                     <tr>
